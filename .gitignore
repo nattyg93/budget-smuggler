@@ -1,0 +1,100 @@
+# Env
+#####
+.env
+
+# Compiled source #
+###################
+*.o
+*.so
+*.pyc
+*.class
+
+# Archives #
+############
+*.7z
+*.dmg
+*.gz
+*.xz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Editor/IDE files #
+####################
+*.swp
+*.swo
+~$*
+.sass-cache
+*.kra
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+*.sqlite3
+
+# OS generated files #
+######################
+.DS_Store*
+.cache/*
+.local/*
+Icon?
+Thumbs.db
+ehthumbs.db
+
+# Version Control #
+###################
+.bz
+.hg
+.git
+.svn
+
+# Distribution / packaging #
+############################
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller #
+###############
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Project-instance #
+####################
+test_client/dist
+node_modules/
+var/
+venv/
+venv*
+celerybeat-schedule*
+
+# Intentionally ignored stuff (notes, etc.) #
+#############################################
+ignore*
+GeoLiteCity.dat
+GeoLiteCityv6.dat
+.editables
+.site-packages
