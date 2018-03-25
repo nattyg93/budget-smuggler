@@ -35,6 +35,9 @@ setup(
             'werkzeug',
             'django-extensions',
         ],
+        'prod': [
+            'gunicorn',
+        ]
     },
     python_requires='>=3.5',
     classifiers=[
