@@ -22,7 +22,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        'dj-core[defaults]==0.1.1',
+        'dj-core[defaults]==0.1.2',
         'dj-core-drf[defaults]==0.1.0',
         'Django==1.11.7',
     ],
